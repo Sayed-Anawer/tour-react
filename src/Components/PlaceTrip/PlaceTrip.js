@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import useAuth from "../../hooks/useAuth";
 import { Link } from "react-router-dom";
 
-const DetailsForm = () => {
+const PlaceTrip = () => {
   const [details, setDetails] = useState([]);
   const history = useHistory();
   document.title = "Register For Trip";
@@ -112,4 +112,4 @@ const DetailsForm = () => {
   }
 };
 
-export default DetailsForm;
+export default PlaceTrip;

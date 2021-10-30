@@ -15,7 +15,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ marginBottom: "300px" }}>
       <Banner />
       <div className="container my-5">
         <h2 className="my-3">

@@ -43,7 +43,10 @@ const ManageAllEvents = () => {
     );
   } else {
     return (
-      <div style={{ height: "100%" }} className="container table-responsive ">
+      <div
+        style={{ marginBottom: "300px" }}
+        className="container table-responsive "
+      >
         <table className="table caption-top mt-3">
           <caption>List of users</caption>
           <thead>

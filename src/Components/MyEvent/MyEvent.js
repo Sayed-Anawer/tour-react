@@ -39,7 +39,7 @@ const MyEvent = () => {
     );
   } else {
     return (
-      <div className="container" style={{ height: "100%" }}>
+      <div className="container" style={{ marginBottom: "300px" }}>
         <div className="row mt-5">
           {myEvents.map((tour) => {
             return (

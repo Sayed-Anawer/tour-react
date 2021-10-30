@@ -2,11 +2,11 @@ import { Route, Switch } from "react-router";
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import AddMoreTrips from "./Components/AddMoreTrips/AddMoreTrips";
-import DetailsForm from "./Components/DetailsForm/DetailsForm";
 import Home from "./Components/Home/Home";
 import Login from "./Components/Login/Login";
 import ManageAllEvents from "./Components/ManageAllEvents/ManageAllEvents";
 import MyEvent from "./Components/MyEvent/MyEvent";
+import PlaceTrip from "./Components/PlaceTrip/PlaceTrip";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import Footer from "./Components/Shared/Footer/Footer";
 import NavBar from "./Components/Shared/Navbar/Navbar";
@@ -26,7 +26,7 @@ function App() {
               <Login />
             </Route>
             <PrivateRoute exact path="/tourBook/:tourId">
-              <DetailsForm></DetailsForm>
+              <PlaceTrip></PlaceTrip>
             </PrivateRoute>
             <PrivateRoute exact path="/myEvents">
               <MyEvent></MyEvent>
